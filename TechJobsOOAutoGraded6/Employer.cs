@@ -1,8 +1,21 @@
 ﻿using System;
 namespace TechJobsOOAutoGraded6
 {
-	public class Employer
-	{
+    public class Employer : JobField
+    {
+        public Employer(string value) : base(value)
+        {
+
+        }
+    }
+
+
+  }
+
+
+
+
+    /*{
         public int Id { get; }
         private static int nextId = 1;
         public string Value { get; set; }
@@ -13,7 +26,7 @@ namespace TechJobsOOAutoGraded6
             nextId++;
         }
 
-        public Employer(string value) : this()
+        public Employer(string value) : this() //constructor chaining!
         {
             Value = value;
         }
@@ -34,5 +47,5 @@ namespace TechJobsOOAutoGraded6
             return Value;
         }
     }
-}
+} */
 
