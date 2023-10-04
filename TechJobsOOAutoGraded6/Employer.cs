@@ -13,7 +13,7 @@ namespace TechJobsOOAutoGraded6
             nextId++;
         }
 
-        public Employer(string value) : this()
+        public Employer(string value) : this() //constructor chaining!
         {
             Value = value;
         }
