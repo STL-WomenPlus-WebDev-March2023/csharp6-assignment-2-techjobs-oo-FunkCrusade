@@ -1,4 +1,6 @@
 ﻿
+using TechJobs.Tests;
+
 namespace TechJobsOO.Tests
 {
 	[TestClass]
@@ -8,7 +10,7 @@ namespace TechJobsOO.Tests
 
         // Testing Location --------------------------------------------------------
 
-      /* COMMENTING THIS OUT BECAUSE ITS MAKING IT RUN WACK-A-DO
+    
 
         [TestMethod] //1
         public void Test_Second_Location_Constructor_Exists()
@@ -177,8 +179,6 @@ namespace TechJobsOO.Tests
             //verify output
             Assert.AreEqual(testPosition.Value.ToString(), "Quality Control", "ToString does not return same output as set value");
         }
-
-       COMMENTING THIS OUT BECAUSE ITS MAKING IT RUN ALL WACK-A-DO */
 
     }
 }

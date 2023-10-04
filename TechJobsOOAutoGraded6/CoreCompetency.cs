@@ -1,8 +1,17 @@
 ﻿using System;
 namespace TechJobsOOAutoGraded6
 {
-	public class CoreCompetency
-	{
+    public class CoreCompetency : JobField
+    {
+        public CoreCompetency(string value) : base(value)
+        {
+        }
+    }
+}
+
+
+
+    /*{
         private int id { get; }
         private static int nextId = 1;
         public string Value { get; set; }
@@ -36,5 +45,5 @@ namespace TechJobsOOAutoGraded6
             return Value;
         }
     }
-}
+} */
 

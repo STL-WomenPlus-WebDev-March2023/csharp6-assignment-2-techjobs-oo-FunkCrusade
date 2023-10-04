@@ -50,6 +50,7 @@ namespace TechJobsOOAutoGraded6
         //Until you create this method, you will not be able to print a job to the console.
         public override string ToString()
         {
+            //5:3
             if (Name == "")
             {
                 Name = "Data not available";
@@ -71,6 +72,7 @@ namespace TechJobsOOAutoGraded6
                 JobCoreCompetency.Value = "Data not available";
             }
 
+            //test 5:1 + 5:2
             return Environment.NewLine + "ID: " + Id
                 + Environment.NewLine + "Name: " + Name
                 + Environment.NewLine + "Employer: " + EmployerName.Value

@@ -53,7 +53,7 @@ namespace TechJobs.Tests
         //BEGINGING OF TASK 5:
 
         //when job object is passed it starts and ends with a blank line (enivironment.newline)
-        [TestMethod] //5:1
+        [TestMethod] // 5:1
         public void TestToStringStartsAndEndsWithNewLine()
         {
             Assert.IsTrue(job4.ToString().StartsWith(Environment.NewLine));
@@ -61,7 +61,7 @@ namespace TechJobs.Tests
         }
 
         //String contains labels printed to console for each feild listed
-        [TestMethod] //5:2
+        [TestMethod] // 5:2
         public void TestToStringContainsCorrectLabelsAndData()
         {
             Assert.IsTrue(job4.ToString().Equals(
@@ -76,7 +76,7 @@ namespace TechJobs.Tests
         }
 
         //empty feild adds "Data not available" after the label
-            [TestMethod] //5:3
+            [TestMethod] // 5:3
             public void TestToStringHandlesEmptyField()
             {
             job3.EmployerLocation.Value = "";
@@ -90,9 +90,7 @@ namespace TechJobs.Tests
             + Environment.NewLine + "Core Competency: " + job3.JobCoreCompetency
             + Environment.NewLine
                 ));
-            }
-
-        
+            }      
     }
 }
 
