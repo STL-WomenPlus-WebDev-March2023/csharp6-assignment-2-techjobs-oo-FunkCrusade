@@ -5,8 +5,7 @@ namespace TechJobsOOAutoGraded6
 	{
         private int id { get; }
         private static int nextId = 1;
-        private string value { get; set; }
-        public string Value { get; internal set; }
+        public string Value { get; set; }
 
         // TODO: Task 2: Change the fields to auto-implemented properties.
 
@@ -18,7 +17,7 @@ namespace TechJobsOOAutoGraded6
 
         public CoreCompetency(string v) : this()
         {
-            value = v;
+            Value = v;
         }
 
         public override bool Equals(object obj)
@@ -34,7 +33,7 @@ namespace TechJobsOOAutoGraded6
 
         public override string ToString()
         {
-            return value;
+            return Value;
         }
     }
 }
